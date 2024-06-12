@@ -5,8 +5,8 @@ function Layout() {
     return (
         <Box h="100vh">
             <Flex gap="xl" justify="center" align="center" p="4vh">
-                <Text component={Link} to="/">Home</Text>
-                <Text component={Link} to="/projects">Projects</Text>
+                <Text component={Link} to="/somfai-hu/">Home</Text>
+                <Text component={Link} to="/somfai-hu/projects">Projects</Text>
             </Flex>
             <Outlet />
         </Box>
