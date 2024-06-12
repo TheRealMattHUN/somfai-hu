@@ -10,9 +10,9 @@ export const AppRouter = () => {
     return (
         <Suspense fallback={<Loading />}>
             <Routes>
-                <Route path="/" element={<Layout />}>
+                <Route path="/somfai-hu/" element={<Layout />}>
                     <Route index element={<Home />}/>
-                    <Route path="/projects" element={<Projects />}/>
+                    <Route path="/somfai-hu/projects" element={<Projects />}/>
                 </Route>
                 <Route path='*' element={<FourOFour />}/>
             </Routes>
