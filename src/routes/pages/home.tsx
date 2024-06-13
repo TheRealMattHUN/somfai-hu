@@ -5,7 +5,7 @@ function Home() {
     console.log(langs)
     return (
         <Box>
-            <Flex className="pic" justify="center" align="center" gap="5vw" p="4vh">
+            <Flex className="pic" justify="center" align="center" gap="8vw" p="4vh">
                 <Image src={Pic} radius={100} h="60vh" w="auto"/>
                 <Flex justify="center" align="center" direction="column">
                     <Title>Somfai Máté</Title>

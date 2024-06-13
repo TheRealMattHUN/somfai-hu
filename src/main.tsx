@@ -8,7 +8,7 @@ import {Suspense} from "react";
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-    <MantineProvider>
+    <MantineProvider defaultColorScheme="auto">
         <Suspense fallback={<Loading />}>
             <BrowserRouter>
                 <AppRouter />
