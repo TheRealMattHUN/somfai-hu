@@ -10,7 +10,7 @@ function Home() {
                 <Flex justify="center" align="center" direction="column">
                     <Title>Somfai Máté</Title>
                     <Text>Professional Webdev</Text>
-                </Flex>
+                </Flex> pu
             </Flex>
             <Flex className="intro" justify="center" align="center" p="4vh">
                 <Text>Hi there! My name is Somfai Máté (Matthew Dogwood), and I'm an amateur programmer dabbling in web design and programming.</Text>
