@@ -10,7 +10,7 @@ function Layout() {
     };
     return (
         <Box h="100vh">
-            <Flex gap="xl" justify="center" align="center" p="4vh">
+            <Flex gap="xl" justify="center" align="center" p="md">
                 <Text component={Link} to="/somfai-hu/">Home</Text>
                 <ActionIcon onClick={toggleColorScheme}>
                     { colorScheme === "light" ? <IconSun/> : <IconMoon />}
